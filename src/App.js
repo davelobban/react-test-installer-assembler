@@ -103,26 +103,6 @@ function App() {
 //Task 1: Implement the rules so that a use can only select combinations of products and versions that satisfy the rules. 
 // NB: It is possible that a user may wish to create an installer with historic (ie, not the latest versions).
 // Extract out whatever components you think will best achieve this. 
-//Task 2: Make this more attractive to the user to improve the image of the Software team.
-//Task 3: Call a InstallerCompiler API with output in the format:
-/*
-{
-  customerName: "(from user)",
-  customerCurrentVersion: "(from user)",
-  requestedTimestamp: "(now as ISO timestamp)",
-  userName: "(username)"
-  products: [
-    {
-      productId: (from user selection),
-      versionNumber:(from user selection),
-    }
-  ]
-}
- */
-//Task 4a: Introduce a new data format for the data (if time I will wire up to an Azure Function to see how the candidate consumes an API/ uses Promises, etc)
-// The API might have some delays/issues (the same former member of staff wrote it).
-//OR
-// Task 4b: Introduce upgrade paths, eg, if a customer is on 2017 they cannot select 2018; they must select 2019(.x).
 
 
 export default App;
